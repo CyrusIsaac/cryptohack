@@ -1,0 +1,8 @@
+from sympy.ntheory.modular import crt
+
+moduli = [5, 11, 17]
+remainders = [2, 3, 5]
+
+total = crt(moduli, remainders)
+
+print(total)  # Output: x = 872
